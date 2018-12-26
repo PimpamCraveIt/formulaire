@@ -12,6 +12,7 @@ body {
     align-items: center;
     grid-template-columns: 300px auto;
     background-repeat: no-repeat;
+    background-position:center center;
 }
 
 h1 {
