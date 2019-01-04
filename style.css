@@ -90,13 +90,17 @@ a {
 input[type=button], input[type=submit], input[type=reset], button, 
 
 .button {
-	padding: 5px 15px;
+	padding: 124px 30px;
 	margin: 3px 4px;
 	display: inline-block;
 	color: #111022;
 	font-size: 28px;
 	cursor: pointer;
 	background: #ff8c00;
+	background: linear-gradient(top, #ff8c00 0%, #000007 100%);
+	background: -moz-linear-gradient(top, #ff8c00 0%, #000007 100%);
+	background: -webkit-linear-gradient(top, #ff8c00 0%, #000007 100%);
+	background: -o-linear-gradient(top, #ff8c00 0%, #000007 100%);
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
