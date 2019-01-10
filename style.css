@@ -15,6 +15,14 @@ body {
     background-position:center center;
 }
 
+body, html {
+    height:100vh;
+}
+  
+div.bloc_principale {
+   height:100vh;
+}
+
 h1 {
     grid-row-start: 1;
     grid-column-start: 1;
